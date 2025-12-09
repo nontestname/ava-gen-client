@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AVA-Gen Client</string>
+    <string name="service_description">AVA-Gen Client Voice Assistant Service</string>
+    <string name="test2va_button_desc">Click to start VA service</string>
+    <string name="mic_permission_message">This app needs access to your microphone to process speech input.</string>
+    <string name="avagen_accessibility_label">AVA-Gen Client accessibility service</string>
+</resources>

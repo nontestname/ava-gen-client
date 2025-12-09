@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#33000000"> <!-- Subtle dark ripple -->
+
+    <item android:id="@android:id/mask">
+        <shape android:shape="oval">
+            <solid android:color="#33000000"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#F0F0F0"/> <!-- ✅ Light gray background -->
+        </shape>
+    </item>
+</ripple>

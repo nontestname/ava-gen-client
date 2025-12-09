@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/rounded_background"
+        android:orientation="vertical" >
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:scrollbars="vertical"
+        android:clipToPadding="false" />
+
+    <!-- Bottom Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:gravity="center_vertical"
+        android:background="#33000000">
+
+        <TextView
+            android:id="@+id/mic_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Click mic to speak"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginEnd="12dp"/>
+
+        <ImageView
+            android:id="@+id/mic_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/mic_icon"
+            android:padding="8dp"
+            android:background="@drawable/mic_button_background"
+            android:contentDescription="Microphone Icon"
+            android:clickable="true"
+            android:focusable="true"/>
+    </LinearLayout>
+</LinearLayout>
+    </FrameLayout>
