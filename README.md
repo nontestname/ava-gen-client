@@ -1,8 +1,8 @@
-# AVA-Gen: An Automated Voice Assistant Generation Framework from GUI Test Cases Reusing
+# AppVA: From GUI Tests to Conversational Interaction: A New Perspective on App-Specific Voice Assistants
 
-AVA-Gen is an automated tool including two parts:
+AppVA is an automated early prototype including two parts:
 
-1. A pipeline that converts existing Espresso UI tests (Java/Kotlin) into VA methods and using LLM calls (GPT APIs) to generate other code description artifacts.
-2. A runtime server and client architecture that support converting user request to the VA tasks.
+1. A pipeline that converts existing Espresso UI tests (Java/Kotlin) into Voice Assistant artifacts.
+2. A runtime server and client architecture that support lively VA functionalities from user request to the VA tasks executions.
 
-This repo shows the AVA-Gen Android Client.
+This repo shows the AppVA Android Client.
